@@ -8,7 +8,11 @@ Steps to reproduce:
 3. Come back to this page.
 4. Verify that the image now **does** load. Attacking web pages would be able to load any static resource from an authenticated Force.com Site in this way, stealing customer metadata.
 
-![Stolen image](https://msenn-dev-ed--bigmike1020.visualforce.com/resource/1553025549000/bigmike1020__cat)
+## Stolen image below
+
+The stolen image should appear right here: ![Image title](https://msenn-dev-ed--bigmike1020.visualforce.com/resource/1553025549000/bigmike1020__cat)
+
+## Stolen image above
 
 This attack works because of code in VisualforceDomainUtils. The getOriginForCORS method allows any domain name to be set as the Access-Control-Allow-Origin domain.
 
