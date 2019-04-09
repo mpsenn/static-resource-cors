@@ -40,3 +40,4 @@ Code, also include in a script tag in the page:
     };
     xmlhttp.send();
 </script>
+
